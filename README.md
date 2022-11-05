@@ -35,7 +35,7 @@ db.create_all()
 7. Well done, now your application web service is ready. 
 ----
 <a id='usage'></a>
-#Usage
+##Usage
 ____
 1. On the main page you can read information about 'Omni' aggregator, then you need to Log In.
 ![](src/img/main.PNG)
@@ -45,16 +45,21 @@ ____
 Paste the NFT address of Solana blockchain NFT and click icon 'search'.
 ![](src/img/search.PNG)
 -----
-#Example
+###Example
 1. Main Page.
 ![](src/img/main.PNG)
+
 2. Login or Registration.
 ![](src/img/login.PNG)
+
 3. Creating an account.
 ![](src/img/registrer.PNG)
+
 4. Sign in.
 ![](src/img/signin.PNG)
+
 5. Enter NFT address.
 ![](src/img/readme.PNG)
+
 6. Read information.
 ![](src/img/info.PNG)
