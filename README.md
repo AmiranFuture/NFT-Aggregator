@@ -37,7 +37,7 @@ db.create_all()
 <a id='usage'></a>
 #Usage
 ____
-1. On the main page you can information about 'Omni' aggregattor, then you need to Log In
+1. On the main page you can read information about 'Omni' aggregattor, then you need to Log In
 ![](src/img/main.PNG)
 2. On the page Log In you need to sign in or if you do not have an account sign up
 ![](src/img/login.PNG)
