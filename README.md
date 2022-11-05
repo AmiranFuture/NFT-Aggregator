@@ -8,6 +8,7 @@ __Plan:__
 
 <a id='installation'></a>
 __Installation__
+
 -----
 1. You need to instal all libraries from Requirements.txt.
 2. Install program where you can use PostgreSQL, usually pgAdmin4.
@@ -35,11 +36,12 @@ from test import db /*Instead of 'test' you need write name of your python file*
 db.create_all()
 ```
 7. Well done, now your application web service is ready. 
-----
-<a id='usage'></a>
+-----
 
+<a id='usage'></a>
 __Usage__
-____
+
+-----
 1. On the main page you can read information about 'Omni' aggregator, then you need to Log In.
 ![](src/img/main.PNG)
 2. On the page Log In you need to sign in or if you do not have an account sign up.
@@ -50,6 +52,7 @@ Paste the NFT address of Solana blockchain NFT and click icon 'search'.
 -----
 
 __Example__
+
 -----
 1. Main Page.
 ![](src/img/main.PNG)
