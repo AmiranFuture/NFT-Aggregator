@@ -8,6 +8,7 @@ __Plan:__
 
 <a id='installation'></a>
 __Installation__
+-----
 1. You need to instal all libraries from Requirements.txt.
 2. Install program where you can use PostgreSQL, usually pgAdmin4.
 3. Download 'src' file and open test.py.
@@ -49,6 +50,7 @@ Paste the NFT address of Solana blockchain NFT and click icon 'search'.
 -----
 
 __Example__
+-----
 1. Main Page.
 ![](src/img/main.PNG)
 
