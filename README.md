@@ -5,6 +5,7 @@ __Plan:__
 2. [Usage](#usage)
 3. [Example](#example)
 -----
+
 <a id='installation'></a>
 #Installation
 1. You need to instal all libraries from Requirements.txt.
@@ -35,7 +36,8 @@ db.create_all()
 7. Well done, now your application web service is ready. 
 ----
 <a id='usage'></a>
-##Usage
+
+#Usage
 ____
 1. On the main page you can read information about 'Omni' aggregator, then you need to Log In.
 ![](src/img/main.PNG)
@@ -45,7 +47,8 @@ ____
 Paste the NFT address of Solana blockchain NFT and click icon 'search'.
 ![](src/img/search.PNG)
 -----
-###Example
+
+#Example
 1. Main Page.
 ![](src/img/main.PNG)
 
