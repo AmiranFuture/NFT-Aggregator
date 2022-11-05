@@ -7,7 +7,7 @@ __Plan:__
 -----
 
 <a id='installation'></a>
-#Installation
+__Installation__
 1. You need to instal all libraries from Requirements.txt.
 2. Install program where you can use PostgreSQL, usually pgAdmin4.
 3. Download 'src' file and open test.py.
@@ -37,7 +37,7 @@ db.create_all()
 ----
 <a id='usage'></a>
 
-#Usage
+__Usage__
 ____
 1. On the main page you can read information about 'Omni' aggregator, then you need to Log In.
 ![](src/img/main.PNG)
@@ -48,7 +48,7 @@ Paste the NFT address of Solana blockchain NFT and click icon 'search'.
 ![](src/img/search.PNG)
 -----
 
-#Example
+__Example__
 1. Main Page.
 ![](src/img/main.PNG)
 
