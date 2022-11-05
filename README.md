@@ -37,24 +37,24 @@ db.create_all()
 <a id='usage'></a>
 #Usage
 ____
-1. On the main page you can read information about 'Omni' aggregattor, then you need to Log In
+1. On the main page you can read information about 'Omni' aggregator, then you need to Log In.
 ![](src/img/main.PNG)
-2. On the page Log In you need to sign in or if you do not have an account sign up
+2. On the page Log In you need to sign in or if you do not have an account sign up.
 ![](src/img/login.PNG)
 3. After clicking on 'Sign In', you will be redirected to search page.
-Paste the NFT address of Solana blockchain NFT and click icon 'search'
+Paste the NFT address of Solana blockchain NFT and click icon 'search'.
 ![](src/img/search.PNG)
 -----
 #Example
-1. Main Page
+1. Main Page.
 ![](src/img/main.PNG)
-2. Login or Registration
+2. Login or Registration.
 ![](src/img/login.PNG)
-3. Creating an account
+3. Creating an account.
 ![](src/img/registrer.PNG)
-4. Sign in
+4. Sign in.
 ![](src/img/signin.PNG)
-5. Enter NFT address
+5. Enter NFT address.
 ![](src/img/readme.PNG)
-6. Read information 
+6. Read information.
 ![](src/img/info.PNG)
