@@ -38,23 +38,23 @@ db.create_all()
 #Usage
 ____
 1. On the main page you can information about 'Omni' aggregattor, then you need to Log In
-![](./img/main.PNG)
+![](src/img/main.PNG)
 2. On the page Log In you need to sign in or if you do not have an account sign up
-![](./img/login.PNG)
+![](src/img/login.PNG)
 3. After clicking on 'Sign In', you will be redirected to search page.
 Paste the NFT address of Solana blockchain NFT and click icon 'search'
-![](./img/search.PNG)
+![](src/img/search.PNG)
 -----
 #Example
 1. Main Page
-![](./img/main.PNG)
+![](src/img/main.PNG)
 2. Login or Registration
-![](./img/login.PNG)
+![](src/img/login.PNG)
 3. Creating an account
-![](./img/registrer.PNG)
+![](src/img/registrer.PNG)
 4. Sign in
-![](./img/signin.PNG)
+![](src/img/signin.PNG)
 5. Enter NFT address
-![](./img/readme.PNG)
+![](src/img/readme.PNG)
 6. Read information 
-![](./img/info.PNG)
+![](src/img/info.PNG)
