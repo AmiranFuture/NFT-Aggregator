@@ -1,0 +1,175 @@
+body,
+html{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+/*Header*/
+.header{
+    padding-top: 30px;
+    width: 100%;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+} 
+
+.header_logo{
+    font-size: 50px;
+    font-weight: 800; 
+    color: black; 
+    font-family: 'Kaushan Script', cursive; 
+    
+} 
+
+.nav{
+    font-size: 18px;
+    
+}
+ 
+
+.nav_link{
+    margin: 0 5px;
+    color: black;
+    
+    transition: color 0.2s linear;
+    font-weight: 800;
+}
+
+.nav_link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    opacity: 0;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    
+    transition: opacity 0.2s linear;
+}
+
+.nav_link:hover{
+    color: white;
+}
+
+.nav_link:hover:after{
+    opacity: 1;
+} 
+
+/*First*/
+.First{
+    background: url(../image/fon.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    
+} 
+
+.First_inner{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+    
+}
+
+.First_title{
+    font-size: 50px;
+    font-weight: 700;
+    
+} 
+
+.First_title:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px/*сверху*/ auto/*слево справо*/  /*снизу*/;
+    
+    background-color: black;
+}
+
+.First_subtitle{
+    margin-bottom: 20px;
+    font-size: 150px;
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+}
+
+/*Info*/
+.stat{
+    background-color: black; 
+} 
+
+
+.st_item{
+    
+    padding: 55px 25px;
+    border-left: 1px solid white;
+    color: white;
+}
+
+.st_item:last-child{
+    border-right: 1px solid white;
+} 
+
+.st_num{
+    font-size: 60px;
+    font-weight: 700;
+} 
+
+.st_text{
+    font-size: 12px;
+} 
+
+/*section*/
+
+.section{
+    padding: 80px 0;
+} 
+
+.section_header{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 50px;
+    
+}
+
+.section_title{
+    font-size: 40px;
+    color: black;
+    font-weight: 800;
+}
+
+.section_title:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px; 
+    margin: 30px auto; 
+    
+    background-color: black; 
+}
+
+.section_text{
+    font-size: 15px;
+    color: black;
+} 

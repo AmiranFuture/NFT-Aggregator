@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'index.css') }}">
+  <link rel="stylesheet" href="scroll.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <title>Main page</title>
+</head>
+<body>
+  <header class="header position-absolute">
+    <div class="container">
+        <div class="header_inner d-flex justify-content-between align-items-center">
+            <div class="header_logo">Omni</div>
+        
+        <nav class="nav text-uppercase" >
+            <a class="nav_link text-decoration-none d-inline-block position-relative align-top" href="{{url_for('login')}}">Log in</a>
+            <a class="nav_link text-decoration-none d-inline-block position-relative align-top" href="#aboutomni" >About Omni</a>
+            <a class="nav_link text-decoration-none d-inline-block position-relative align-top" href="{{url_for('login')}}" >Solana NFT</a>   
+            
+        </nav>    
+        </div>
+    </div>
+  </header>
+
+
+  <div class="First d-flex flex-column justify-content-center text-center">
+    <div class="container">
+        <div class="First_inner text-align-center">
+        <h2 class="First_subtitle">Omni</h2> 
+        <h1 class="First_title text-uppercase text-align-center lh-1">Solana NFT Aggregator</h1>
+    </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+    <div class="section_header text-center">   
+        <h3 class="section_title text-uppercase" id="aboutomni">About Aggregator</h3>
+        <div> 
+        <p class="section_text fw-bold">'Omni' is a web service for finding information about the Solana NFT. The creators of this service are Mustafin A. and Adekenov D. Omni is the best information search service.</p>
+    </div>
+    </div>   
+    </div>
+</section>
+
+    <div class="stat">
+      <div class="container"> 
+          <div class="st d-flex">
+              <div class="st_item d-flex align-items-center row text-center ">
+                  <div class="st_num">Aggregator</div>
+                  <div class="st_text text-uppercase fw-bold">Aggregators are a unique online resource that aggregates and classifies information and offers from various companies in one place. Aggregator sites make it possible to increase traffic on the resource, provide SEO promotion of the resource, and also increase the number of sales.</div> 
+              </div>
+              <div class="st_item d-flex align-items-center row text-center">
+                  <div class="st_num">NFT</div>
+                  <div class="st_text text-uppercase fw-bold">NFT, or non—interchangeable token, is a unit of account that creates a digital impression for any unique item. Among them can be: paintings, photos, videos, music, GIFs — in short, any content that claims to be at least some kind of uniqueness. They are a great value among collectors, gamers and art lovers, and they buy and sell them through auctions.</div>
+              </div>
+              <div class="st_item d-flex align-items-center row text-center">
+                  <div class="st_num">Solana</div>
+                  <div class="st_text text-uppercase fw-bold">Solana is an advanced open source blockchain project that aims to leverage several breakthrough technologies for the next generation of DApps.</div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+  
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+  <div class="" id="navbar">
+    <h2 class="header_logo justify-content-between">Aggregator</h2>
+    <div class="collapse navbar-collapse justify-content-end">
+    <ul class="navbar-nav mr-auto ">
+      
+      <li class="nav-item"> 
+        <a class="nav-link " href="{{url_for('login')}}">Log in</a>
+      </li>
+      
+      <li class="nav-item"> 
+        <a class="nav-link " href="{{url_for('signup')}}">Sign Up</a>
+      </li>
+
+      <li class="nav-item"> 
+        <a class="nav-link " href="{{url_for('login')}}">Solana NFT</a>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+<h3 class="text-center ">If you want to find info about NFT 
+  you need to Log in
+  </h3> -->
